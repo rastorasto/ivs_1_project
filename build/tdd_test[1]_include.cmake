@@ -1,0 +1,5 @@
+if(EXISTS "/home/xuhliar00/ivs_project_testing/build/tdd_test[1]_tests.cmake")
+  include("/home/xuhliar00/ivs_project_testing/build/tdd_test[1]_tests.cmake")
+else()
+  add_test(tdd_test_NOT_BUILT tdd_test_NOT_BUILT)
+endif()
