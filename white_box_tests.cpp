@@ -3,12 +3,12 @@
 // Purpose:     White Box - test suite
 //
 // $NoKeywords: $ivs_project_1 $white_box_tests.cpp
-// $Author:     JMENO PRIJMENI <xlogin00@stud.fit.vutbr.cz>
+// $Author:     Rastislav Uhliar <xuhliar00@stud.fit.vutbr.cz>
 // $Date:       $2024-02-14
 //============================================================================//
 /**
  * @file white_box_tests.cpp
- * @author JMENO PRIJMENI
+ * @author Rastislav Uhliar
  * 
  * @brief Implementace testu hasovaci tabulky.
  */

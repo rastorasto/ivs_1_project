@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/xuhliar00/ivs_project_testing/white_box_code.cpp
-white_box_code.h
-/home/xuhliar00/ivs_project_testing/white_box_code.h
-stdio.h
--
-
 /home/xuhliar00/ivs_project_testing/white_box_code.h
 stdlib.h
 -
