@@ -23,7 +23,7 @@
 #include <iostream>
 
 // Místo pro Vaše případné includy, používejte pouze standardní knihovnu tak, aby nebylo nutno upravovat CMake.
-
+class Edge;
 /**
  * @brief reprezentace uzlu
  */
@@ -31,6 +31,7 @@ struct Node{
     size_t id;  ///< jednoznačný identifikátor uzlu
     size_t color;  ///< celé číslo reprezentující barvu uzlu, výchozí barva je 0 a značí neobarveno
     // doplňte vhodné struktury, pokud potřebujete
+    std::vector<Edge*> edges;
 };
 
 /**
@@ -204,6 +205,10 @@ public:
 
 protected:
     // doplňte vhodné struktury
+    std::vector<Node*> graph_nodes;
+    std::vector<Edge*> graph_edges;
+    size_t maxNode;
+    size_t maxEdge;
 
 };
 
