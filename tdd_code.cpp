@@ -105,7 +105,8 @@ Node* Graph::getNode(size_t nodeId){
 bool Graph::containsEdge(const Edge& edge) const{
     for(size_t i = 0; i < graph_edges.size(); i++)
     {
-        if(graph_edges[i].a == edge.a && graph_edges[i].b == edge.b)
+       // if(graph_edges[i].a == edge.a && graph_edges[i].b == edge.b || graph_edges[i].b == edge.a && graph_edges[i].a == edge.b)
+        if(graph_edges[i] == edge)
         {
             return true;
         }
@@ -133,6 +134,7 @@ void Graph::removeEdge(const Edge& edge){
             graph_edges.erase(graph_edges.begin() + i);
         }
     }
+    throw std::out_of_range("Edge {" + std::to_string(edge.a) + "," + std::to_string(edge.b) +"} does not exist.");
 }
 
 size_t Graph::nodeCount() const{
@@ -167,6 +169,15 @@ size_t Graph::graphDegree() const{
 }
 
 void Graph::coloring(){
+    for(size_t i = 0; i < graph_nodes.size(); i++)
+    {
+        //todo
+        if(i>graphDegree()+1){
+            break;
+        }
+        graph_nodes[i]->color = i;
+    }
+
 }
 
 void Graph::clear() {
