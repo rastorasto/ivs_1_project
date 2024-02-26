@@ -206,7 +206,7 @@ public:
 protected:
     // doplňte vhodné struktury
     std::vector<Node*> graph_nodes;
-    std::vector<Edge*> graph_edges;
+    std::vector<Edge> graph_edges;
     size_t maxNode;
     size_t maxEdge;
 

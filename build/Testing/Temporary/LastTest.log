@@ -1,0 +1,1567 @@
+Start testing: Feb 26 18:00 CET
+----------------------------------------------------------
+1/46 Testing: EmptyTree.InsertNode_42
+1/46 Test: EmptyTree.InsertNode_42
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=EmptyTree.InsertNode_42" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyTree.InsertNode_42" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyTree.InsertNode_42
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyTree
+[ RUN      ] EmptyTree.InsertNode_42
+[       OK ] EmptyTree.InsertNode_42 (0 ms)
+[----------] 1 test from EmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyTree.InsertNode_42" end time: Feb 26 18:00 CET
+"EmptyTree.InsertNode_42" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/46 Testing: EmptyTree.DeleteNode_42
+2/46 Test: EmptyTree.DeleteNode_42
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=EmptyTree.DeleteNode_42" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyTree.DeleteNode_42" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyTree.DeleteNode_42
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyTree
+[ RUN      ] EmptyTree.DeleteNode_42
+[       OK ] EmptyTree.DeleteNode_42 (0 ms)
+[----------] 1 test from EmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyTree.DeleteNode_42" end time: Feb 26 18:00 CET
+"EmptyTree.DeleteNode_42" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/46 Testing: EmptyTree.FindNode_42
+3/46 Test: EmptyTree.FindNode_42
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=EmptyTree.FindNode_42" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyTree.FindNode_42" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyTree.FindNode_42
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyTree
+[ RUN      ] EmptyTree.FindNode_42
+[       OK ] EmptyTree.FindNode_42 (0 ms)
+[----------] 1 test from EmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyTree.FindNode_42" end time: Feb 26 18:00 CET
+"EmptyTree.FindNode_42" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/46 Testing: NonEmptyTree.InsertNodes_30_40
+4/46 Test: NonEmptyTree.InsertNodes_30_40
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.InsertNodes_30_40" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.InsertNodes_30_40" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.InsertNodes_30_40
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.InsertNodes_30_40
+[       OK ] NonEmptyTree.InsertNodes_30_40 (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.InsertNodes_30_40" end time: Feb 26 18:00 CET
+"NonEmptyTree.InsertNodes_30_40" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/46 Testing: NonEmptyTree.InsertNodes_15_15
+5/46 Test: NonEmptyTree.InsertNodes_15_15
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.InsertNodes_15_15" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.InsertNodes_15_15" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.InsertNodes_15_15
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.InsertNodes_15_15
+[       OK ] NonEmptyTree.InsertNodes_15_15 (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.InsertNodes_15_15" end time: Feb 26 18:00 CET
+"NonEmptyTree.InsertNodes_15_15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/46 Testing: NonEmptyTree.DeleteNode_12
+6/46 Test: NonEmptyTree.DeleteNode_12
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.DeleteNode_12" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.DeleteNode_12" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.DeleteNode_12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.DeleteNode_12
+[       OK ] NonEmptyTree.DeleteNode_12 (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.DeleteNode_12" end time: Feb 26 18:00 CET
+"NonEmptyTree.DeleteNode_12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/46 Testing: NonEmptyTree.DeleteNodes_22_22
+7/46 Test: NonEmptyTree.DeleteNodes_22_22
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.DeleteNodes_22_22" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.DeleteNodes_22_22" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.DeleteNodes_22_22
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.DeleteNodes_22_22
+[       OK ] NonEmptyTree.DeleteNodes_22_22 (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.DeleteNodes_22_22" end time: Feb 26 18:00 CET
+"NonEmptyTree.DeleteNodes_22_22" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/46 Testing: NonEmptyTree.DeleteNode_That_Doesnt_Exist
+8/46 Test: NonEmptyTree.DeleteNode_That_Doesnt_Exist
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.DeleteNode_That_Doesnt_Exist" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.DeleteNode_That_Doesnt_Exist" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.DeleteNode_That_Doesnt_Exist
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.DeleteNode_That_Doesnt_Exist
+[       OK ] NonEmptyTree.DeleteNode_That_Doesnt_Exist (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.DeleteNode_That_Doesnt_Exist" end time: Feb 26 18:00 CET
+"NonEmptyTree.DeleteNode_That_Doesnt_Exist" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/46 Testing: NonEmptyTree.FindNode_7
+9/46 Test: NonEmptyTree.FindNode_7
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.FindNode_7" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.FindNode_7" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.FindNode_7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.FindNode_7
+[       OK ] NonEmptyTree.FindNode_7 (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.FindNode_7" end time: Feb 26 18:00 CET
+"NonEmptyTree.FindNode_7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/46 Testing: NonEmptyTree.FindNode_That_Doesnt_Exist
+10/46 Test: NonEmptyTree.FindNode_That_Doesnt_Exist
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=NonEmptyTree.FindNode_That_Doesnt_Exist" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyTree.FindNode_That_Doesnt_Exist" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyTree.FindNode_That_Doesnt_Exist
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyTree
+[ RUN      ] NonEmptyTree.FindNode_That_Doesnt_Exist
+[       OK ] NonEmptyTree.FindNode_That_Doesnt_Exist (0 ms)
+[----------] 1 test from NonEmptyTree (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyTree.FindNode_That_Doesnt_Exist" end time: Feb 26 18:00 CET
+"NonEmptyTree.FindNode_That_Doesnt_Exist" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/46 Testing: TreeAxioms.Axiom1
+11/46 Test: TreeAxioms.Axiom1
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom1" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"TreeAxioms.Axiom1" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TreeAxioms.Axiom1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TreeAxioms
+[ RUN      ] TreeAxioms.Axiom1
+[       OK ] TreeAxioms.Axiom1 (0 ms)
+[----------] 1 test from TreeAxioms (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TreeAxioms.Axiom1" end time: Feb 26 18:00 CET
+"TreeAxioms.Axiom1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/46 Testing: TreeAxioms.Axiom2
+12/46 Test: TreeAxioms.Axiom2
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom2" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"TreeAxioms.Axiom2" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TreeAxioms.Axiom2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TreeAxioms
+[ RUN      ] TreeAxioms.Axiom2
+[       OK ] TreeAxioms.Axiom2 (0 ms)
+[----------] 1 test from TreeAxioms (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TreeAxioms.Axiom2" end time: Feb 26 18:00 CET
+"TreeAxioms.Axiom2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/46 Testing: TreeAxioms.Axiom3
+13/46 Test: TreeAxioms.Axiom3
+Command: "/home/xuhliar00/ivs_project_testing/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom3" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"TreeAxioms.Axiom3" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TreeAxioms.Axiom3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TreeAxioms
+[ RUN      ] TreeAxioms.Axiom3
+[       OK ] TreeAxioms.Axiom3 (0 ms)
+[----------] 1 test from TreeAxioms (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TreeAxioms.Axiom3" end time: Feb 26 18:00 CET
+"TreeAxioms.Axiom3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/46 Testing: NonEmptyGraph.nodes
+14/46 Test: NonEmptyGraph.nodes
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodes" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.nodes" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.nodes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.nodes
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:56: Failure
+Value of: nodes
+Expected: has 5 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 1, and
+ - element #1 is an object whose given field is equal to 4, and
+ - element #2 is an object whose given field is equal to 5, and
+ - element #3 is an object whose given field is equal to 6, and
+ - element #4 is an object whose given field is equal to 7
+  Actual: {}
+[  FAILED  ] NonEmptyGraph.nodes (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.nodes
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.nodes" end time: Feb 26 18:00 CET
+"NonEmptyGraph.nodes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/46 Testing: NonEmptyGraph.edges
+15/46 Test: NonEmptyGraph.edges
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.edges" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.edges" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.edges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.edges
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:71: Failure
+Value of: edges
+Expected: has 6 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {4, 6}, and
+ - element #3 is equal to {5, 6}, and
+ - element #4 is equal to {5, 7}, and
+ - element #5 is equal to {7, 6}
+  Actual: {}
+[  FAILED  ] NonEmptyGraph.edges (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.edges
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.edges" end time: Feb 26 18:00 CET
+"NonEmptyGraph.edges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/46 Testing: NonEmptyGraph.addNode
+16/46 Test: NonEmptyGraph.addNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.addNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.addNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.addNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.addNode
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:82: Failure
+Value of: nodes
+Expected: has 6 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 1, and
+ - element #1 is an object whose given field is equal to 4, and
+ - element #2 is an object whose given field is equal to 5, and
+ - element #3 is an object whose given field is equal to 6, and
+ - element #4 is an object whose given field is equal to 7, and
+ - element #5 is an object whose given field is equal to 8
+  Actual: { 0x556355977ea0 }, which has 1 element
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:92: Failure
+Value of: nodes
+Expected: has 6 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 1, and
+ - element #1 is an object whose given field is equal to 4, and
+ - element #2 is an object whose given field is equal to 5, and
+ - element #3 is an object whose given field is equal to 6, and
+ - element #4 is an object whose given field is equal to 7, and
+ - element #5 is an object whose given field is equal to 8
+  Actual: { 0x556355977ea0 }, which has 1 element
+[  FAILED  ] NonEmptyGraph.addNode (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.addNode
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.addNode" end time: Feb 26 18:00 CET
+"NonEmptyGraph.addNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/46 Testing: NonEmptyGraph.addEdge
+17/46 Test: NonEmptyGraph.addEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.addEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.addEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.addEdge
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:101: Failure
+Value of: graph.addEdge(Edge(1, 8))
+  Actual: false
+Expected: true
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:103: Failure
+Value of: edges
+Expected: has 7 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {1, 8}, and
+ - element #3 is equal to {4, 6}, and
+ - element #4 is equal to {5, 6}, and
+ - element #5 is equal to {5, 7}, and
+ - element #6 is equal to {7, 6}
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:108: Failure
+Value of: edges
+Expected: has 7 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {1, 8}, and
+ - element #3 is equal to {4, 6}, and
+ - element #4 is equal to {5, 6}, and
+ - element #5 is equal to {5, 7}, and
+ - element #6 is equal to {7, 6}
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:113: Failure
+Value of: edges
+Expected: has 7 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {1, 8}, and
+ - element #3 is equal to {4, 6}, and
+ - element #4 is equal to {5, 6}, and
+ - element #5 is equal to {5, 7}, and
+ - element #6 is equal to {7, 6}
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:118: Failure
+Value of: edges
+Expected: has 7 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {1, 8}, and
+ - element #3 is equal to {4, 6}, and
+ - element #4 is equal to {5, 6}, and
+ - element #5 is equal to {5, 7}, and
+ - element #6 is equal to {7, 6}
+  Actual: {}
+[  FAILED  ] NonEmptyGraph.addEdge (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.addEdge
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.addEdge" end time: Feb 26 18:00 CET
+"NonEmptyGraph.addEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/46 Testing: NonEmptyGraph.addMultipleEdges
+18/46 Test: NonEmptyGraph.addMultipleEdges
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.addMultipleEdges" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.addMultipleEdges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.addMultipleEdges
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:130: Failure
+Value of: graph.nodes()
+Expected: has 9 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 1, and
+ - element #1 is an object whose given field is equal to 4, and
+ - element #2 is an object whose given field is equal to 5, and
+ - element #3 is an object whose given field is equal to 6, and
+ - element #4 is an object whose given field is equal to 7, and
+ - element #5 is an object whose given field is equal to 10, and
+ - element #6 is an object whose given field is equal to 40, and
+ - element #7 is an object whose given field is equal to 70, and
+ - element #8 is an object whose given field is equal to 60
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:140: Failure
+Value of: graph.edges()
+Expected: has 9 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {4, 6}, and
+ - element #3 is equal to {5, 6}, and
+ - element #4 is equal to {5, 7}, and
+ - element #5 is equal to {7, 6}, and
+ - element #6 is equal to {10, 40}, and
+ - element #7 is equal to {10, 1}, and
+ - element #8 is equal to {70, 60}
+  Actual: {}
+[  FAILED  ] NonEmptyGraph.addMultipleEdges (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.addMultipleEdges
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.addMultipleEdges" end time: Feb 26 18:00 CET
+"NonEmptyGraph.addMultipleEdges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/46 Testing: NonEmptyGraph.getNode
+19/46 Test: NonEmptyGraph.getNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.getNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.getNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.getNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.getNode
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:148: Failure
+Expected: (node) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] NonEmptyGraph.getNode (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.getNode
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.getNode" end time: Feb 26 18:00 CET
+"NonEmptyGraph.getNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/46 Testing: NonEmptyGraph.containsEdge
+20/46 Test: NonEmptyGraph.containsEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.containsEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.containsEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.containsEdge
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:155: Failure
+Value of: graph.containsEdge(Edge(1, 4))
+  Actual: false
+Expected: true
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:156: Failure
+Value of: graph.containsEdge(Edge(4, 1))
+  Actual: false
+Expected: true
+[  FAILED  ] NonEmptyGraph.containsEdge (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.containsEdge
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.containsEdge" end time: Feb 26 18:00 CET
+"NonEmptyGraph.containsEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/46 Testing: NonEmptyGraph.removeNode
+21/46 Test: NonEmptyGraph.removeNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.removeNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.removeNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.removeNode
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:169: Failure
+Value of: nodes
+Expected: has 4 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 4, and
+ - element #1 is an object whose given field is equal to 5, and
+ - element #2 is an object whose given field is equal to 6, and
+ - element #3 is an object whose given field is equal to 7
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:175: Failure
+Value of: edges
+Expected: has 4 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {4, 6}, and
+ - element #1 is equal to {5, 6}, and
+ - element #2 is equal to {5, 7}, and
+ - element #3 is equal to {7, 6}
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:177: Failure
+Expected: graph.removeNode(1) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] NonEmptyGraph.removeNode (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.removeNode
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.removeNode" end time: Feb 26 18:00 CET
+"NonEmptyGraph.removeNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/46 Testing: NonEmptyGraph.removeEdge
+22/46 Test: NonEmptyGraph.removeEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.removeEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.removeEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.removeEdge
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:183: Failure
+Value of: edges
+Expected: has 5 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 5}, and
+ - element #1 is equal to {4, 6}, and
+ - element #2 is equal to {5, 6}, and
+ - element #3 is equal to {5, 7}, and
+ - element #4 is equal to {7, 6}
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:186: Failure
+Expected: graph.removeEdge(Edge(1, 4)) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] NonEmptyGraph.removeEdge (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.removeEdge
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.removeEdge" end time: Feb 26 18:00 CET
+"NonEmptyGraph.removeEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/46 Testing: NonEmptyGraph.nodeCount
+23/46 Test: NonEmptyGraph.nodeCount
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.nodeCount" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.nodeCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.nodeCount
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:190: Failure
+Expected equality of these values:
+  graph.nodeCount()
+    Which is: 0
+  5
+[  FAILED  ] NonEmptyGraph.nodeCount (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.nodeCount
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.nodeCount" end time: Feb 26 18:00 CET
+"NonEmptyGraph.nodeCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/46 Testing: NonEmptyGraph.edgeCount
+24/46 Test: NonEmptyGraph.edgeCount
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.edgeCount" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.edgeCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.edgeCount
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:194: Failure
+Expected equality of these values:
+  graph.edgeCount()
+    Which is: 0
+  6
+[  FAILED  ] NonEmptyGraph.edgeCount (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.edgeCount
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.edgeCount" end time: Feb 26 18:00 CET
+"NonEmptyGraph.edgeCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/46 Testing: NonEmptyGraph.nodeDegree
+25/46 Test: NonEmptyGraph.nodeDegree
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.nodeDegree" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.nodeDegree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.nodeDegree
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:198: Failure
+Expected equality of these values:
+  graph.nodeDegree(1)
+    Which is: 0
+  2
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:199: Failure
+Expected equality of these values:
+  graph.nodeDegree(4)
+    Which is: 0
+  2
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:200: Failure
+Expected equality of these values:
+  graph.nodeDegree(5)
+    Which is: 0
+  3
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:201: Failure
+Expected equality of these values:
+  graph.nodeDegree(6)
+    Which is: 0
+  3
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:202: Failure
+Expected equality of these values:
+  graph.nodeDegree(7)
+    Which is: 0
+  2
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:203: Failure
+Expected: graph.nodeDegree(9) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] NonEmptyGraph.nodeDegree (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.nodeDegree
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.nodeDegree" end time: Feb 26 18:00 CET
+"NonEmptyGraph.nodeDegree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/46 Testing: NonEmptyGraph.graphDegree
+26/46 Test: NonEmptyGraph.graphDegree
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.graphDegree" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.graphDegree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.graphDegree
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:207: Failure
+Expected equality of these values:
+  graph.graphDegree()
+    Which is: 42
+  3
+[  FAILED  ] NonEmptyGraph.graphDegree (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.graphDegree
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.graphDegree" end time: Feb 26 18:00 CET
+"NonEmptyGraph.graphDegree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/46 Testing: NonEmptyGraph.coloring
+27/46 Test: NonEmptyGraph.coloring
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.coloring" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.coloring" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.coloring
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.coloring
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:218: Failure
+Value of: *colors.begin() != 0
+  Actual: false
+Expected: true
+[  FAILED  ] NonEmptyGraph.coloring (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] NonEmptyGraph.coloring
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"NonEmptyGraph.coloring" end time: Feb 26 18:00 CET
+"NonEmptyGraph.coloring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/46 Testing: NonEmptyGraph.clear
+28/46 Test: NonEmptyGraph.clear
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=NonEmptyGraph.clear" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"NonEmptyGraph.clear" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NonEmptyGraph.clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyGraph
+[ RUN      ] NonEmptyGraph.clear
+[       OK ] NonEmptyGraph.clear (0 ms)
+[----------] 1 test from NonEmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyGraph.clear" end time: Feb 26 18:00 CET
+"NonEmptyGraph.clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/46 Testing: EmptyGraph.nodes
+29/46 Test: EmptyGraph.nodes
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.nodes" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.nodes" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.nodes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.nodes
+[       OK ] EmptyGraph.nodes (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.nodes" end time: Feb 26 18:00 CET
+"EmptyGraph.nodes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/46 Testing: EmptyGraph.edges
+30/46 Test: EmptyGraph.edges
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.edges" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.edges" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.edges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.edges
+[       OK ] EmptyGraph.edges (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.edges" end time: Feb 26 18:00 CET
+"EmptyGraph.edges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/46 Testing: EmptyGraph.addNode
+31/46 Test: EmptyGraph.addNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.addNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.addNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.addNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.addNode
+[       OK ] EmptyGraph.addNode (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.addNode" end time: Feb 26 18:00 CET
+"EmptyGraph.addNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/46 Testing: EmptyGraph.addEdge
+32/46 Test: EmptyGraph.addEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.addEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.addEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.addEdge
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:260: Failure
+Value of: graph.addEdge(Edge(1, 4))
+  Actual: false
+Expected: true
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:262: Failure
+Value of: edges
+Expected: has 1 element and that element is equal to {1, 4}
+  Actual: {}
+[  FAILED  ] EmptyGraph.addEdge (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.addEdge
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.addEdge" end time: Feb 26 18:00 CET
+"EmptyGraph.addEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/46 Testing: EmptyGraph.addMultipleEdges
+33/46 Test: EmptyGraph.addMultipleEdges
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.addMultipleEdges" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.addMultipleEdges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.addMultipleEdges
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:277: Failure
+Value of: graph.nodes()
+Expected: has 5 elements and there exists some permutation of elements such that:
+ - element #0 is an object whose given field is equal to 1, and
+ - element #1 is an object whose given field is equal to 4, and
+ - element #2 is an object whose given field is equal to 5, and
+ - element #3 is an object whose given field is equal to 6, and
+ - element #4 is an object whose given field is equal to 7
+  Actual: {}
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:283: Failure
+Value of: graph.edges()
+Expected: has 6 elements and there exists some permutation of elements such that:
+ - element #0 is equal to {1, 4}, and
+ - element #1 is equal to {1, 5}, and
+ - element #2 is equal to {4, 6}, and
+ - element #3 is equal to {5, 6}, and
+ - element #4 is equal to {5, 7}, and
+ - element #5 is equal to {7, 6}
+  Actual: {}
+[  FAILED  ] EmptyGraph.addMultipleEdges (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.addMultipleEdges
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.addMultipleEdges" end time: Feb 26 18:00 CET
+"EmptyGraph.addMultipleEdges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/46 Testing: EmptyGraph.getNode
+34/46 Test: EmptyGraph.getNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.getNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.getNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.getNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.getNode
+[       OK ] EmptyGraph.getNode (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.getNode" end time: Feb 26 18:00 CET
+"EmptyGraph.getNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/46 Testing: EmptyGraph.containsEdge
+35/46 Test: EmptyGraph.containsEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.containsEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.containsEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.containsEdge
+[       OK ] EmptyGraph.containsEdge (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.containsEdge" end time: Feb 26 18:00 CET
+"EmptyGraph.containsEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/46 Testing: EmptyGraph.removeNode
+36/46 Test: EmptyGraph.removeNode
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.removeNode" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.removeNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.removeNode
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:296: Failure
+Expected: graph.removeNode(1) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] EmptyGraph.removeNode (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.removeNode
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.removeNode" end time: Feb 26 18:00 CET
+"EmptyGraph.removeNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/46 Testing: EmptyGraph.removeEdge
+37/46 Test: EmptyGraph.removeEdge
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.removeEdge" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.removeEdge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.removeEdge
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:300: Failure
+Expected: graph.removeEdge(Edge(1, 4)) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] EmptyGraph.removeEdge (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.removeEdge
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.removeEdge" end time: Feb 26 18:00 CET
+"EmptyGraph.removeEdge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/46 Testing: EmptyGraph.nodeCount
+38/46 Test: EmptyGraph.nodeCount
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.nodeCount" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.nodeCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.nodeCount
+[       OK ] EmptyGraph.nodeCount (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.nodeCount" end time: Feb 26 18:00 CET
+"EmptyGraph.nodeCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/46 Testing: EmptyGraph.edgeCount
+39/46 Test: EmptyGraph.edgeCount
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.edgeCount" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.edgeCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.edgeCount
+[       OK ] EmptyGraph.edgeCount (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.edgeCount" end time: Feb 26 18:00 CET
+"EmptyGraph.edgeCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/46 Testing: EmptyGraph.nodeDegree
+40/46 Test: EmptyGraph.nodeDegree
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.nodeDegree" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.nodeDegree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.nodeDegree
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:312: Failure
+Expected: graph.nodeDegree(1) throws an exception of type std::out_of_range.
+  Actual: it throws nothing.
+[  FAILED  ] EmptyGraph.nodeDegree (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.nodeDegree
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.nodeDegree" end time: Feb 26 18:00 CET
+"EmptyGraph.nodeDegree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/46 Testing: EmptyGraph.graphDegree
+41/46 Test: EmptyGraph.graphDegree
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.graphDegree" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.graphDegree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.graphDegree
+/home/xuhliar00/ivs_project_testing/tdd_tests.cpp:316: Failure
+Expected equality of these values:
+  graph.graphDegree()
+    Which is: 42
+  0
+[  FAILED  ] EmptyGraph.graphDegree (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] EmptyGraph.graphDegree
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"EmptyGraph.graphDegree" end time: Feb 26 18:00 CET
+"EmptyGraph.graphDegree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/46 Testing: EmptyGraph.coloring
+42/46 Test: EmptyGraph.coloring
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.coloring" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.coloring" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.coloring
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.coloring
+[       OK ] EmptyGraph.coloring (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.coloring" end time: Feb 26 18:00 CET
+"EmptyGraph.coloring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/46 Testing: EmptyGraph.clear
+43/46 Test: EmptyGraph.clear
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=EmptyGraph.clear" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"EmptyGraph.clear" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyGraph.clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyGraph
+[ RUN      ] EmptyGraph.clear
+[       OK ] EmptyGraph.clear (0 ms)
+[----------] 1 test from EmptyGraph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyGraph.clear" end time: Feb 26 18:00 CET
+"EmptyGraph.clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/46 Testing: Edges.equal
+44/46 Test: Edges.equal
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=Edges.equal" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"Edges.equal" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Edges.equal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Edges
+[ RUN      ] Edges.equal
+[       OK ] Edges.equal (0 ms)
+[----------] 1 test from Edges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Edges.equal" end time: Feb 26 18:00 CET
+"Edges.equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/46 Testing: Edges.nonEqual
+45/46 Test: Edges.nonEqual
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=Edges.nonEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"Edges.nonEqual" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Edges.nonEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Edges
+[ RUN      ] Edges.nonEqual
+[       OK ] Edges.nonEqual (0 ms)
+[----------] 1 test from Edges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Edges.nonEqual" end time: Feb 26 18:00 CET
+"Edges.nonEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/46 Testing: Edges.toStringStream
+46/46 Test: Edges.toStringStream
+Command: "/home/xuhliar00/ivs_project_testing/build/tdd_test" "--gtest_filter=Edges.toStringStream" "--gtest_also_run_disabled_tests"
+Directory: /home/xuhliar00/ivs_project_testing/build
+"Edges.toStringStream" start time: Feb 26 18:00 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/xuhliar00/ivs_project_testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Edges.toStringStream
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Edges
+[ RUN      ] Edges.toStringStream
+[       OK ] Edges.toStringStream (0 ms)
+[----------] 1 test from Edges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Edges.toStringStream" end time: Feb 26 18:00 CET
+"Edges.toStringStream" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 26 18:00 CET
