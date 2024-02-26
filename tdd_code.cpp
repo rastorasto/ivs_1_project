@@ -115,26 +115,39 @@ bool Graph::containsEdge(const Edge& edge) const{
 }
 
 void Graph::removeNode(size_t nodeId){
-    for(size_t i = 0; i < graph_nodes.size(); i++)
-    {
-        if(graph_nodes[i]->id == nodeId)
-        {
-            delete graph_nodes[i];
+    bool found=false;
+    for(size_t i = 0; i < graph_nodes.size(); i++){
+        if(graph_nodes[i]->id == nodeId){
+            for(auto edge = graph_edges.begin(); edge != graph_edges.end();){
+                if(edge->a == nodeId || edge->b == nodeId){
+                    removeEdge(*edge);
+                } else {
+                    edge++;
+                }
+            }
+            found=true;
+            free(graph_nodes[i]);
             graph_nodes.erase(graph_nodes.begin() + i);
         }
     }
-    throw std::out_of_range("Node with id " + std::to_string(nodeId) + " does not exist.");
+    if(!found){
+        throw std::out_of_range("Node with id " + std::to_string(nodeId) + " does not exist.");
+    }
 }
 
 void Graph::removeEdge(const Edge& edge){
+    bool found=false;
     for(size_t i = 0; i < graph_edges.size(); i++)
     {
         if(graph_edges[i] == edge)
         {
             graph_edges.erase(graph_edges.begin() + i);
+            found=true;
         }
     }
-    throw std::out_of_range("Edge {" + std::to_string(edge.a) + "," + std::to_string(edge.b) +"} does not exist.");
+    if(!found){
+        throw std::out_of_range("Edge {" + std::to_string(edge.a) + "," + std::to_string(edge.b) +"} does not exist.");
+    }
 }
 
 size_t Graph::nodeCount() const{
@@ -146,38 +159,35 @@ size_t Graph::edgeCount() const{
 }
 
 size_t Graph::nodeDegree(size_t nodeId) const{
-    for(size_t i = 0; i < graph_nodes.size(); i++)
-    {
-        if(graph_nodes[i]->id == nodeId)
-        {
-            return graph_nodes[i]->edges.size();
+    int counter=0;
+    for(size_t i = 0; i < graph_nodes.size(); i++){
+        if(graph_nodes[i]->id == nodeId){
+            for(size_t j = 0; j < graph_edges.size(); j++){
+                if(graph_edges[j].a == nodeId || graph_edges[j].b == nodeId){
+                    counter++;
+                }
+            }
         }
     }
-    throw std::out_of_range("Node with id " + std::to_string(nodeId) + " does not exist.");
+    if(counter){
+        return counter;
+    } else {
+        throw std::out_of_range("Node with id " + std::to_string(nodeId) + " does not exist.");
+    }
 }
 
 size_t Graph::graphDegree() const{
-    size_t max = 0;
-    for(size_t i = 0; i < graph_nodes.size(); i++)
-    {
-        if(graph_nodes[i]->edges.size() > max)
-        {
-            max = graph_nodes[i]->edges.size();
+    int max = 0;
+    for(size_t i = 0; i < graph_nodes.size(); i++){
+        int value = nodeDegree(graph_nodes[i]->id);
+        if(value > max){
+            max = value;
         }
     }
     return max;
 }
 
 void Graph::coloring(){
-    for(size_t i = 0; i < graph_nodes.size(); i++)
-    {
-        //todo
-        if(i>graphDegree()+1){
-            break;
-        }
-        graph_nodes[i]->color = i;
-    }
-
 }
 
 void Graph::clear() {

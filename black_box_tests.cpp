@@ -19,6 +19,7 @@
 
 #include "red_black_tree.h"
 
+
 //============================================================================//
 // ** ZDE DOPLNTE TESTY **
 //
@@ -34,112 +35,90 @@
 //============================================================================//
 
 /*** Konec souboru black_box_tests.cpp ***/
+using namespace::testing;
 
-TEST(EmptyTree, InsertNode_42)
-{
+class EmptyTree : public Test{
+protected:
     BinaryTree tree;
-    tree.InsertNode(42); // Inserts node with key 42
-    Node_t *node = tree.FindNode(42); // Finds node with key 42
-    ASSERT_NE(node, nullptr); // Checks if node with key 42 exists
-    EXPECT_EQ(node->key, 42); // Checks if key of the node is 42
+};
+
+class NonEmptyTree : public Test{
+    void SetUp(){
+        for(int i = 0; i<50; i++){
+            tree.InsertNode(i);
+        }
+    }
+protected:
+    BinaryTree tree;
+};
+
+class TreeAxioms : public Test{
+    void SetUp(){
+        for(int i = 0; i<50; i++){
+            tree.InsertNode(i);
+        }
+    }
+protected:
+    BinaryTree tree;
+};
+
+TEST_F(EmptyTree, InsertNode_62)
+{
+    tree.InsertNode(62); // Inserts node with key 62
+    Node_t *node = tree.FindNode(62); // Finds node with key 62
+    ASSERT_NE(node, nullptr); // Checks if node with key 62 exists
+    EXPECT_EQ(node->key, 62); // Checks if key of the node is 62
     EXPECT_EQ(node->color, BLACK); // Checks if the color of the node is black
 }
-TEST(EmptyTree, DeleteNode_42)
+TEST_F(EmptyTree, DeleteNode_62)
 {
-    BinaryTree tree;
-    tree.DeleteNode(42); // Deletes node with key 42
-    Node_t *node = tree.FindNode(42); // Finds node with key 42
-    EXPECT_EQ(node, nullptr); // Checks if node with key 42 does not exist
+    tree.DeleteNode(62); // Deletes node with key 62
+    Node_t *node = tree.FindNode(62); // Finds node with key 62
+    EXPECT_EQ(node, nullptr); // Checks if node with key 62 does not exist
 }
-TEST(EmptyTree, FindNode_42)
+TEST_F(EmptyTree, DeleteNode_15_Doesnt_Exist)
 {
-    BinaryTree tree;
-    Node_t *node = tree.FindNode(42); // Finds node with key 42
-    EXPECT_EQ(node, nullptr); // Checks if node with key 42 does not exist
+    auto result = tree.DeleteNode(15); // Tries to delete node with key 15
+    EXPECT_EQ(result, false); // Checks if node was deleted
 }
-TEST(NonEmptyTree, InsertNodes_30_40)
+TEST_F(EmptyTree, FindNode_42)
 {
-    BinaryTree tree;
-    tree.InsertNode(30); // Inserts node with key 30 so the tree is not empty
-    tree.InsertNode(40); // Inserts node with key 40
-    Node_t *node = tree.FindNode(40); // Finds node with key 40
-    ASSERT_NE(node, nullptr); // Checks if node with key 40 exists
-    EXPECT_EQ(node->key, 40); // Checks if key of the node is 40
-    EXPECT_EQ(node->color, RED); // Checks if the color of the node is red
+    auto result = tree.FindNode(42); // Finds node with key 42
+    EXPECT_EQ(result, nullptr); // Checks if node with key 42 does not exist
 }
-TEST(NonEmptyTree, InsertNodes_15_15)
+TEST_F(NonEmptyTree, DeleteNode_12)
 {
-    BinaryTree tree;
-    tree.InsertNode(15); // Inserts node with key 15 so the tree is not empty
-    tree.InsertNode(15); // Inserts node with key 15
-    Node_t *node = tree.FindNode(15); // Finds node with key 15
-    ASSERT_NE(node, nullptr); // Checks if node with key 15 exists
-    EXPECT_EQ(node->key, 15); // Checks if key of the node is 15
-    EXPECT_EQ(node->color, BLACK); // Checks if the color of the node is black
-}
-TEST(NonEmptyTree, DeleteNode_12)
-{
-    BinaryTree tree;
-    tree.InsertNode(10); // Inserts node with key 10 so the tree is not empty
-    tree.InsertNode(12); // Inserts node with key 12
     tree.DeleteNode(12); // Deletes node with key 12
     Node_t *node = tree.FindNode(12); // Finds node with key 12
     EXPECT_EQ(node, nullptr); // Checks if node with key 12 exists
 }
-TEST(NonEmptyTree, DeleteNodes_22_22)
+TEST_F(NonEmptyTree, DeleteNodes_60_Doesnt_Exist)
 {
-    BinaryTree tree;
-    tree.InsertNode(22); // Inserts node with key 22
-    tree.InsertNode(22); // Inserts node with key 22
-    tree.DeleteNode(22); // Deletes node with key 22
-    Node_t *node = tree.FindNode(22); // Finds node with key 22
-    EXPECT_EQ(node, nullptr); // Checks if node with key 22 exists
+    Node_t *node = tree.FindNode(60); // Finds node with key 60
+    EXPECT_EQ(node, nullptr); // Checks if node with key 60 exists
 }
-TEST(NonEmptyTree, DeleteNode_That_Doesnt_Exist)
+TEST_F(NonEmptyTree, FindNode_7)
 {
-    BinaryTree tree;
-    tree.InsertNode(5); // Inserts node with key 5 so the tree is not empty
-    tree.DeleteNode(6); // Deletes node with key 6
-    Node_t *node = tree.FindNode(2); // Tries to find node with key 2
-    EXPECT_EQ(node, nullptr); // Checks if node with key 2 does not exist
-}
-TEST(NonEmptyTree, FindNode_7)
-{
-    BinaryTree tree;
-    tree.InsertNode(5); // Inserts node with key 5 so the tree is not empty
-    tree.InsertNode(7); // Inserts node with key 7
     Node_t *node = tree.FindNode(7); // Finds node with key 7
     ASSERT_NE(node, nullptr); // Checks if node with key 7 exists
     EXPECT_EQ(node->key, 7); // Checks if key of the node is 7
-    EXPECT_EQ(node->color, RED); // Checks if the color of the node is red
+    EXPECT_EQ(node->color, BLACK); // Checks if the color of the node is black
 }
-TEST(NonEmptyTree, FindNode_That_Doesnt_Exist)
+TEST_F(NonEmptyTree, FindNode_120_Doesnt_Exist)
 {
-    BinaryTree tree;
-    tree.InsertNode(5); // Inserts node with key 5 so the tree is not empty
-    tree.InsertNode(7); // Inserts node with key 7
-    tree.InsertNode(3); // Inserts node with key 3
-    Node_t *node = tree.FindNode(6); // Tries to find node with key 6
-    EXPECT_EQ(node, nullptr); // Checks if node with key 6 does not exist
+    Node_t *node = tree.FindNode(120); // Tries to find node with key 120
+    EXPECT_EQ(node, nullptr); // Checks if node with key 120 does not exist
 }
-TEST(TreeAxioms, Axiom1)
+TEST_F(TreeAxioms, Axiom1)
 {
-    BinaryTree tree;
-    for (int i = 0; i < 50; i++) {
-        tree.InsertNode(i); // Creates a tree with 50 nodes
-    }
     std::vector<Node_t *> leafNodes;
     tree.GetLeafNodes(leafNodes); // Gets all leaf nodes
     for (auto leaf : leafNodes) {
         EXPECT_EQ(leaf->color, BLACK); // Checks if all leaf nodes are black
     }
 }
-TEST(TreeAxioms, Axiom2)
+TEST_F(TreeAxioms, Axiom2)
 {
-    BinaryTree tree;
-    for (int i = 0; i < 50; i++) {
-        tree.InsertNode(i); // Creates a tree with 50 nodes
-    }
     std::vector<Node_t *> redNodes;
     tree.GetAllNodes(redNodes); // Gets all leaf nodes
     for (auto parentNode : redNodes) {
@@ -149,12 +128,8 @@ TEST(TreeAxioms, Axiom2)
         }
     }   
 }
-TEST(TreeAxioms, Axiom3)
+TEST_F(TreeAxioms, Axiom3)
 {
-    BinaryTree tree;
-    for (int i = 0; i < 50; i++) {
-        tree.InsertNode(i); // Creates a tree with 50 nodes
-    }
     std::vector<Node_t *> leafNodes;
     tree.GetLeafNodes(leafNodes); // Gets all leaf nodes
     std::vector<int> blackNodesCount; // Array to store numbers of black nodes

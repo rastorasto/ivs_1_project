@@ -1,5 +1,1 @@
-21:NonEmptyGraph.removeNode
-22:NonEmptyGraph.removeEdge
-25:NonEmptyGraph.nodeDegree
-26:NonEmptyGraph.graphDegree
-27:NonEmptyGraph.coloring
+25:NonEmptyGraph.coloring
