@@ -24,16 +24,10 @@ Graph::~Graph(){
 }
 
 std::vector<Node*> Graph::nodes() {
-    //std::vector<Node*> nodes = graph_nodes;
     return graph_nodes;
 }
 
 std::vector<Edge> Graph::edges() const{
-    /*std::vector<Edge> edges;
-    for (size_t i = 0; i < graph_edges.size(); i++)
-    {
-        edges.push_back(graph_edges[i]);
-    }*/
     return graph_edges;
 }
 
@@ -50,36 +44,15 @@ Node* Graph::addNode(size_t nodeId) {
 }
 
 bool Graph::addEdge(const Edge& edge){
-    if(edge.a == edge.b) //  Ignoring self loops
+    if(edge.a == edge.b)
     {
         return false;
     }
-    if (containsEdge(edge)) { // Checks if the edge already exists
+    if (containsEdge(edge)) {
 		return false;
 	}
-    /*
-	if (getNode(edge.a)) {
-		return false;
-	}
-	if (!getNode(edge.b)) {
-		return false;
-	}*/
-    //Node* first_node = getNode(edge.a);
-    //Node* second_node = getNode(edge.b);
     addNode(edge.a);
     addNode(edge.b);
-    /*Edge* new_edge = (Edge*)malloc(sizeof(Edge));
-    if(new_edge == nullptr)
-    {
-        return false;
-    }
-    new_edge->a = first_node->id;
-    new_edge->b = second_node->id;
-    first_node->edges.push_back(new_edge);
-    second_node->edges.push_back(new_edge);
-    graph_edges.push_back(new_edge);
-    return true;
-    */
     graph_edges.push_back(edge);
     return true;
 }
@@ -105,7 +78,6 @@ Node* Graph::getNode(size_t nodeId){
 bool Graph::containsEdge(const Edge& edge) const{
     for(size_t i = 0; i < graph_edges.size(); i++)
     {
-       // if(graph_edges[i].a == edge.a && graph_edges[i].b == edge.b || graph_edges[i].b == edge.a && graph_edges[i].a == edge.b)
         if(graph_edges[i] == edge)
         {
             return true;
